@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Orbitz</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Serif:ital@0;1&family=Sofia+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
     <link href="css/reset.css" rel="stylesheet">
     <!-- <link href="css/normalize.css" rel="stylesheet"> -->
     <link href="css/main.css" rel="stylesheet">
@@ -10,12 +15,100 @@
 <body>
     <h1 class="hidden">Welcome to Orbitz</h1>
     <div id="container">
-    <header>
+    <header id="main-header" class="grid">
+        <h2 class="hidden">Top Navigation</h2>
+        <div id="logo-desktop">
+            <a href="index.html">
+              <img src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav id="main-nav">
+            <h3 class="hidden">Main Navigation</h1>
 
+        </nav>
+        <section id="right-nav">
+            <h3 class="hidden">Search and Login</h3>
+            <div>
+                <img src="images/login.png" alt="search">
+            </div>
+        </section>
     </header>
 
-    <footer>
+    <section id="main-image" class="grid">
+        <h2 class="hidden">Main Image</h2>
+        <img src="images/main_image.jpg" alt="main image">
+    </section>
 
+    <section id="product" class="grid">
+        <h2 class="hidden">Products</h2>
+        <section id="product1">
+            <h3 class="hidden">Product 1</h3>
+            <div id="product1-image">
+                <img src="images/product1.jpg" alt="Product1">
+            </div>
+            <article id="product1-description">
+                <p>Aute adipisicing dolore Lorem consectetur laboris. Proident ad laboris ipsum exercitation ea. Sint officia ipsum id labore mollit reprehenderit deserunt irure tempor labore pariatur. Irure exercitation sunt occaecat proident non culpa velit consectetur fugiat veniam. Amet in irure qui ex adipisicing ex ea sint commodo magna adipisicing eiusmod. Id enim sint amet nostrud consequat occaecat reprehenderit qui ad.</p>
+            </article>
+        </section>
+        <section id="product2">
+            <h3 class="hidden">Product 2</h3>
+            <div id="product2-image">
+                <img src="images/product2.jpg" alt="Product1">
+            </div>
+            <article id="product2-description">
+                <p>Aute adipisicing dolore Lorem consectetur laboris. Proident ad laboris ipsum exercitation ea. Sint officia ipsum id labore mollit reprehenderit deserunt irure tempor labore pariatur. Irure exercitation sunt occaecat proident non culpa velit consectetur fugiat veniam. Amet in irure qui ex adipisicing ex ea sint commodo magna adipisicing eiusmod. Id enim sint amet nostrud consequat occaecat reprehenderit qui ad.</p>
+            </article>
+        </section>
+        <section id="product3">
+            <h3 class="hidden">Product 3</h3>
+            <div id="product3-image">
+                <img src="images/product3.jpg" alt="Product1">
+            </div>
+            <article id="product3-description">
+                <p>Aute adipisicing dolore Lorem consectetur laboris. Proident ad laboris ipsum exercitation ea. Sint officia ipsum id labore mollit reprehenderit deserunt irure tempor labore pariatur. Irure exercitation sunt occaecat proident non culpa velit consectetur fugiat veniam. Amet in irure qui ex adipisicing ex ea sint commodo magna adipisicing eiusmod. Id enim sint amet nostrud consequat occaecat reprehenderit qui ad.</p>
+            </article>
+        </section>
+    </section>
+
+    <section id="brand" class="grid">
+        <h2>Brand Story</h2>
+        <div id="brand-layout">
+            <div id="brand-image">
+                <img src="images/brand_movie.jpg" alt="Brand Image">
+            </div>
+            <article id="brand-description">
+                <p>Aute adipisicing dolore Lorem consectetur laboris. Proident ad laboris ipsum exercitation ea. Sint officia ipsum id labore mollit reprehenderit deserunt irure tempor labore pariatur. Irure exercitation sunt occaecat proident non culpa velit consectetur fugiat veniam. Amet in irure qui ex adipisicing ex ea sint commodo magna adipisicing eiusmod. Id enim sint amet nostrud consequat occaecat reprehenderit qui ad.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer class="grid">
+        <div id="footer-area">
+            <h2 class="hidden">Footer</h2>
+        
+            <section id="company-info">
+                <h3 class="hidden">Company Information</h3>
+                <img src="images/logo.png" alt="logo">
+                <p>address</p>
+                <p>phone</p>
+                <p>email</p>
+            </section>
+
+            <section id="social">
+                <h3 class="hidden">Social Links</h3>
+                <div id="social-links">
+                    <a href="http://www.facebook.com">
+                        <img src="images/facebook.jpg" alt="facebook">
+                    </a>
+                    <a href="http://www.facebook.com">
+                        <img src="images/facebook.jpg" alt="facebook">
+                    </a>
+                    <a href="http://www.facebook.com">
+                        <img src="images/facebook.jpg" alt="facebook">
+                    </a>
+                </div>
+            </section>
+        </div>
     </footer>
 
     <script src="js/main.js"></script>
