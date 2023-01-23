@@ -10,109 +10,102 @@
     
     <link href="css/reset.css" rel="stylesheet">
     <!-- <link href="css/normalize.css" rel="stylesheet"> -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main-mobile.css" rel="stylesheet">
 </head>
 <body>
     <h1 class="hidden">Welcome to Orbitz</h1>
     <div id="container">
     <header id="main-header" class="grid">
         <h2 class="hidden">Top Navigation</h2>
-        <div id="logo-desktop">
-            <a href="index.html">
-              <img src="images/logo.png" alt="logo">
-            </a>
-        </div>
-        <nav id="main-nav">
+        <nav id="hamburger">
             <h3 class="hidden">Main Navigation</h3>
-
+            <img src="images/m-hamburger.jpg" alt="top navigation">
         </nav>
-        <section id="right-nav">
-            <h3 class="hidden">Search and Login</h3>
-            <div>
-                <img src="images/login.png" alt="search">
-            </div>
-        </section>
+        <div id="logo-mobile">
+            <img src="images/m-logo.jpg" alt="logo">
+        </div>
+        <div id="login">
+            <h3 class="hidden">Login</h3>
+            <img src="images/m-login.jpg" alt="login">
+        </div>
     </header>
 
-    <section id="main-image" class="grid">
+    <section id="main-image">
         <h2 class="hidden">Main Image</h2>
-        <img src="images/main_image.jpg" alt="main image">
+        <img src="images/m-main_image.jpg" alt="main image">
     </section>
 
-    <section id="product" class="grid">
+    <section>
         <h2 class="hidden">Products</h2>
-        <section id="product1">
-            <h3 class="hidden">Product 1</h3>
-            <div id="product1-image">
-                <img src="images/product1.jpg" alt="Product1">
+        <section>
+            <h3>Product 1</h3>
+            <div class="product grid">
+                <img src="images/m-product1.jpg" alt="Product1">
             </div>
-            <article id="product1-description">
+            <article class="product-description grid">
                 <h4 class="hidden">Product Description</h4>
                 <p>Aute adipisicing dolore Lorem consectetur laboris. Proident ad laboris ipsum exercitation ea. Sint officia ipsum id labore mollit reprehenderit deserunt irure tempor labore pariatur. Irure exercitation sunt occaecat proident non culpa velit consectetur fugiat veniam. Amet in irure qui ex adipisicing ex ea sint commodo magna adipisicing eiusmod. Id enim sint amet nostrud consequat occaecat reprehenderit qui ad.</p>
             </article>
         </section>
-        <section id="product2">
-            <h3 class="hidden">Product 2</h3>
-            <div id="product2-image">
-                <img src="images/product2.jpg" alt="Product1">
+        <hr>
+        <section>
+            <h3>Product 2</h3>
+            <div class="product grid">
+                <img src="images/m-product2.jpg" alt="Product2">
             </div>
-            <article id="product2-description">
+            <article class="product-description grid">
                 <h4 class="hidden">Product Description</h4>
                 <p>Aute adipisicing dolore Lorem consectetur laboris. Proident ad laboris ipsum exercitation ea. Sint officia ipsum id labore mollit reprehenderit deserunt irure tempor labore pariatur. Irure exercitation sunt occaecat proident non culpa velit consectetur fugiat veniam. Amet in irure qui ex adipisicing ex ea sint commodo magna adipisicing eiusmod. Id enim sint amet nostrud consequat occaecat reprehenderit qui ad.</p>
             </article>
         </section>
-        <section id="product3">
-            <h3 class="hidden">Product 3</h3>
-            <div id="product3-image">
-                <img src="images/product3.jpg" alt="Product1">
+        <hr>
+        <section>
+            <h3>Product 3</h3>
+            <div class="product grid">
+                <img src="images/m-product3.jpg" alt="Product3">
             </div>
-            <article id="product3-description">
+            <article class="product-description grid">
                 <h4 class="hidden">Product Description</h4>
                 <p>Aute adipisicing dolore Lorem consectetur laboris. Proident ad laboris ipsum exercitation ea. Sint officia ipsum id labore mollit reprehenderit deserunt irure tempor labore pariatur. Irure exercitation sunt occaecat proident non culpa velit consectetur fugiat veniam. Amet in irure qui ex adipisicing ex ea sint commodo magna adipisicing eiusmod. Id enim sint amet nostrud consequat occaecat reprehenderit qui ad.</p>
             </article>
         </section>
     </section>
 
-    <section id="brand" class="grid">
+    <section id="brand">
         <h2>Brand Story</h2>
-        <div id="brand-layout">
             <div id="brand-image">
-                <img src="images/brand_movie.jpg" alt="Brand Image">
+                <img src="images/m-brand_movie.jpg" alt="Brand Image">
             </div>
-            <article id="brand-description">
+            <article id="brand-description" class="grid">
                 <h3 class="hidden">Brand Description</h3>                
                 <p>Aute adipisicing dolore Lorem consectetur laboris. Proident ad laboris ipsum exercitation ea. Sint officia ipsum id labore mollit reprehenderit deserunt irure tempor labore pariatur. Irure exercitation sunt occaecat proident non culpa velit consectetur fugiat veniam. Amet in irure qui ex adipisicing ex ea sint commodo magna adipisicing eiusmod. Id enim sint amet nostrud consequat occaecat reprehenderit qui ad.</p>
             </article>
-        </div>
+
     </section>
 
-    <footer class="grid">
-        <div id="footer-area">
+    <footer>
             <h2 class="hidden">Footer</h2>
-        
+            <section>
+                <h3 class="hidden">Social Links</h3>
+                <div class="grid">
+                    <a id="facebook" href="http://www.facebook.com">
+                        <img src="images/m-facebook.jpg" alt="facebook">
+                    </a>
+                    <a id="instagram" href="http://www.instagram.com">
+                        <img src="images/m-instagram.jpg" alt="instagram">
+                    </a>
+                    <a id="twitter" href="http://www.twitter.com">
+                        <img src="images/m-twitter.jpg" alt="twitter">
+                    </a>
+                </div>
+            </section>        
             <section id="company-info">
                 <h3 class="hidden">Company Information</h3>
-                <img src="images/logo.png" alt="logo">
+                <img src="images/m-logo.jpg" alt="logo">
                 <p>address</p>
                 <p>phone</p>
                 <p>email</p>
             </section>
-
-            <section id="social">
-                <h3 class="hidden">Social Links</h3>
-                <div id="social-links">
-                    <a href="http://www.facebook.com">
-                        <img src="images/facebook.jpg" alt="facebook">
-                    </a>
-                    <a href="http://www.instagram.com">
-                        <img src="images/instagram.jpg" alt="instagram">
-                    </a>
-                    <a href="http://www.twitter.com">
-                        <img src="images/twitter.jpg" alt="twitter">
-                    </a>
-                </div>
-            </section>
-        </div>
     </footer>
 
     <script src="js/main.js"></script>
